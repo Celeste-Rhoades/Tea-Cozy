@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+a {
+  color: seashell;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  border-bottom: 0.1px solid gray;
+  height: 69px;
+}
+.logo {
+  height: 50px;
+  position: absolute;
+  left: 0;
+  margin: 0 0 50px 10px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  justify-items: flex-end;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  margin: 250px;
+  background-image: url(./Photos/img-mission-background.jpg);
+  height: 700px;
+  width: auto;
+  align-items: center;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+}
+
+.mission-text {
+  text-align: center;
+  width: 1500px;
+  background-color: black;
+  align-items: center;
+}
+.mission-text h2 {
+  font-size: 28px;
+}
+.mission-text h4 {
+  font-size: 18px;
+}
+
+.featured h2,
+h4 {
+  text-align: center;
+}
+.featured figure {
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+}
+.featured figcaption {
+  text-align: center;
+}
+
+figure img {
+  text-align: center;
+  vertical-align: top;
+  height: 200px;
+  width: 300px;
+}
+.teas,
+.teas2 {
+  display: flex;
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+}
+.pic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.location {
+  margin: 250px;
+  background-image: url(./Photos/img-locations-background.jpg);
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 700px;
+  justify-content: center;
+}
+
+.location h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+
+.container-1 {
+  display: inline-flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding: 38px;
+  margin: 40px;
+  flex-wrap: wrap;
+  opacity: 1;
+  background-color: black;
+}
+footer {
+  height: 200px;
+}
+footer h2,
+h5 {
+  text-align: center;
+}
+footer h4 {
+  text-align: left;
+  margin: 20px;
+}
